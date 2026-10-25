@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistem Absensi Realtime QR Code - UPTD SDN 2 RAJASINGA</title>
+    <meta name="description" content="Aplikasi Presensi Realtime Multi-User berbasis QR Code dengan Anti-Duplicate Scanner, Manajemen Siswa, Cetak Kartu Pelajar, dan Rekap Laporan untuk UPTD SDN 2 RAJASINGA." />
+    <meta property="og:title" content="Sistem Absensi Realtime QR Code - UPTD SDN 2 RAJASINGA" />
+    <meta property="og:description" content="Aplikasi Presensi Realtime Multi-User berbasis QR Code dengan Anti-Duplicate Scanner, Manajemen Siswa, Cetak Kartu Pelajar, dan Rekap Laporan untuk UPTD SDN 2 RAJASINGA." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      }
+      .font-mono {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      @media print {
+        body {
+          background: white !important;
+          color: black !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        #printable-area {
+          display: block !important;
+          width: 100% !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+        .id-card-print {
+          page-break-inside: avoid !important;
+          break-inside: avoid !important;
+          margin-bottom: 12px !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-100 text-slate-800 antialiased min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

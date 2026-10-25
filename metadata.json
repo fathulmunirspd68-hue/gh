@@ -1,0 +1,10 @@
+{
+  "name": "Remix Sistem Absensi Realtime QR Code - UPTD SDN 2 RAJASINGA",
+  "description": "Aplikasi Presensi Realtime Multi-User berbasis QR Code dengan Anti-Duplicate Scanner, Manajemen Siswa, Cetak Kartu Pelajar, dan Rekap Laporan untuk UPTD SDN 2 RAJASINGA.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
